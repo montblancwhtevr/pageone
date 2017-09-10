@@ -1,0 +1,65 @@
+body{
+	height: 100%;
+}
+
+.tm-list{
+	padding: 8px;
+}
+
+.tm-bg{
+	background-image: url("../img/Desert.jpg");
+	background-repeat: no-repeat;
+	border-radius: 0;
+    background-size: 100% 100%;
+    background-color: #fff;
+}
+
+.text-header{
+	color: #fff;
+}
+
+.tm-article{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.tm-img{
+	margin: 1%;
+	padding: 2%;
+	width: 500px;
+}
+
+.tm-btn{
+	background-color: #000;
+	color: #fff;
+	border-radius: 0;
+}
+
+.hr-80{
+	width: 80%;
+}
+
+.subscribe{
+	margin-top: 8px;
+}
+
+.tm-icon{
+	margin: 2%;
+	padding: 8px;
+	list-style: none;
+}
+
+.list-icon ul li{
+	display: inline-block;
+	padding: 4px;
+}
+
+.tm-rights{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.center{
+	margin: auto;
+    width: 50%;
+}
