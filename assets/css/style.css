@@ -1,175 +1,63 @@
-article{
-	font-family: 'Lato', sans-serif;	
+body{
+	font-size: 18pt !important;
 }
 
-a{
-	color: #000;
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
 
-a:hover, a:active{
-	color: rgb(241,183,159);
+table, th, td {
+  border: 1px solid black;
 }
 
-img{
-	vertical-align: middle;
-}
-
-
-
-.tm-list{
-	margin:auto;
-	font-family: 'Encode Sans Condensed', sans-serif;
-}
-
-.tm-list li{
-	padding: 4px;
-	font-weight: bold;
-	font-size: 11pt;
-}
-
-.tm-right{
-	font-family: 'Encode Sans Condensed', sans-serif;
-	font-weight: bold;
-	font-size: 11pt;
-}
-
-.tm-right-icon{
-	padding: 10px;
-}
-
-.tm-bg{
-	background-image: url("../img/Desert.jpg");
-	background-repeat: repeat-y;
-	border-radius: 0;
-    background-size: 100%;
-    background-color: #fff;
-}
-
-.bg-img{
-	width: 100%;
+p{
+	text-align: justify;
 }
 
 
-.text-header{
-	color: #fff;
-	font-family: 'Merriweather', serif;
-}
-
-.tm-article{
-	padding-left: 10%;
-	padding-right: 10%;
-}
-
-.tm-img{
-	margin: 1%;
+.img-ss{
 	padding: 2%;
-	width: 500px;
 }
 
-.tm-btn{
-	background-color: #000;
-	color: #fff;
-	border-radius: 0;
+.text-paragraf{
+	text-indent: 2%;
+	text-align: justify;
 }
 
-.hr-80{
-	width: 80%;
+.text{
+	text-align: justify;
 }
 
-.subscribe{
-	margin-top: 8px;
+.center-table{
+	text-align: center;
 }
 
-.tm-icon{
-	margin: 2%;
-	padding: 8px;
-	list-style: none;
+.vertical {
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  width: 1.5em;
 }
 
-.list-icon ul li{
-	display: inline-block;
-	padding: 4px;
+
+.vertical div {
+     -moz-transform: rotate(-90.0deg);  /* FF3.5+ */
+       -o-transform: rotate(-90.0deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(-90.0deg);  /* Saf3.1+, Chrome */
+             filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
+         -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+         margin-left: -10em;
+         margin-right: -10em;
 }
 
-.tm-rights{
-	margin-top: 2%;
-	margin-bottom: 2%;
-}
-
-.center{
-	margin: auto;
-    width: 50%;
-}
-
-.tm-margin-top{
-	margin-top: 10px;
-}
-
-.tm-lg-margin-top{
-	margin-top: 40px;
-}
-
-.kriwil{
-	font-family: 'Dancing Script', cursive;
-	font-size: 30px;
-}
-
-.thick-hr{
-	text-align: left;
-	height: 5px;
-	border: none;
-	color: rgb(241,183,159);
-	background-color: rgb(241,183,159);
-}
-
-.card img{
-	width: 50%;
-	border-radius: 0;
-}
-
-.card{
-	border-left: 0;
-	border-right: 0;
-	border-radius: 0;
-}
-/*BOOTSTRAP CSS ELEMENT */
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
-	color: rgb(241,183,159);
-}
-
-.navbar-light .navbar-nav .nav-link {
-	color: #000;
-}
-
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
-	color: rgb(241,183,159);
-}
-
-.btn:focus, .btn:hover {
-    text-decoration: none;
-    background-color: rgb(241,183,159);
-    color: black;
-}
-
-@media screen and (min-width: 992px) {
-
-.tm-nav{
-	height: 50px;
-}
-
-.jumbo{
-	height: 100vh;
-}
-
-}
-@media screen and (max-width: 992px) {
-
-.tm-right{
+.text-bold{
 	font-weight: bold;
-	font-size: 11pt;
-	float: left;
-	padding-left: 4px;
 }
 
+.mid-table{
+	text-align: center;
+	width: 50%;
 }
+
 
